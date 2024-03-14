@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No 24</title>
+</head>
+
+<body>
+    <script>
+
+        // Area of Circle
+        function areaofcircle(radius) {
+            const area = 3.14 * (radius * radius);
+            console.log(area);
+        }
+        areaofcircle(10);
+
+
+
+        //Argument and Return function
+        function areaofbox(side) {
+            const area = side * side;
+            return area;
+        }
+        const A = areaofbox(5);
+        console.log(`Area of box: ${A}`);
+
+
+
+        //No Argument but Return
+        const side = 8;
+        function areaofbox1() {
+            const area1 = side * side;
+            return area1;
+        }
+        const b = areaofbox1();
+        console.log(`Area of box: ${b}`);
+
+
+
+        //Argument But no Return
+        function greet(name) {
+            console.log(`Good Morning ${name}`);
+        }
+        greet("Rutik");
+
+        
+        //No argument and No return
+        const length = 10;
+        const breadth = 8;
+        function areaofsqaure() {
+            const area = length * breadth;
+            console.log(`area of square ${area}`);
+        }
+        areaofsqaure();
+
+
+    </script>
+</body>
+
+</html>
